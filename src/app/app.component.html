@@ -1,0 +1,16 @@
+<main>
+  <div class="calculator">
+    <div class="header">
+      <p class="title">{{title}}</p>
+      <button class="c-button">C</button>
+    </div>
+    <div class="screen">
+
+    </div>
+    <div class="buttons">
+        <div class="row" *ngFor="let row of buttons" >
+          <button *ngFor="let button of row">{{button}}</button>
+        </div>
+    </div>
+  </div>
+</main>
