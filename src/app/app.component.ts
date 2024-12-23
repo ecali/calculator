@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import {NgForOf} from '@angular/common';
 
 @Component({
@@ -17,6 +16,7 @@ export class AppComponent {
     ['7', '8', '9', '-'],
     ['0', '.', '=', '+']
   ];
-  
+
+
 
 }
